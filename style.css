@@ -1,0 +1,138 @@
+html{
+  background-color: #100d1e;
+  font-family: 'Share Tech Mono', monospace;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+}
+body{
+  margin: 20px;
+  padding: 5px;
+}
+
+h1, h2, h3{
+  font-family: 'Press Start 2P', cursive;
+  color: #fFF;
+}
+
+header nav{
+  text-align: left;
+  background-color: #282A36;
+  margin: 10px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a{
+  font-family: 'Share Tech Mono', monospace;
+  color: #E9F189;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer{
+  color: #fFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  width: auto;
+  padding: 10px;
+  background-color: #282A36;
+  border-radius: 5px;
+}
+
+table{
+  width: 700px;
+  margin: 0 auto;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+table caption{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #282A36;
+  padding: 5px 0;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+table tr, td, th{
+  border-bottom: none;
+  border-right: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+table td{
+  text-align: center;
+}
+table th{
+  text-align: left;
+}
+table thead th{
+  text-align: center;
+  background-color: #E9F189;
+  color: #282A36;
+}
+table tr th:first-child{
+  text-align: left;
+}
+
+table tfoot tr th{
+  text-align: center;
+  font-size: 12px;
+  background-color: #E9F189;
+  color: #282A36;
+}
+
+.coluna1{
+  background-color: #282A36;
+}
+
+.formId{
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #282A36;
+  border: 1px solid #ccc;
+}
+
+.formId input{
+  width: 230px;
+  height: 30px;
+  display: block;
+  margin-bottom: 5px;
+  border: 2px solid #111;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #282A36;
+}
+.formId label{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #E9F189;
+}
+
+.formId input:focus{
+  border: 5px solid #E9F189;
+}
+
+.formId input[type="submit"]{
+  width: 100px;
+  margin-bottom: 5px;
+  border: 2px solid #111;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #282A36;
+  background-color: #E9F189;
+  cursor: pointer;
+}
